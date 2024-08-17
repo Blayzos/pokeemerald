@@ -343,6 +343,7 @@ SECTIONS {
         src/international_string_util.o(.text);
         src/tx_rac_menu.o(.text);
         src/tx_randomizer_and_challenges.o(.text);
+        src/tm_case.o(.text);
     } > ROM =0
 
     script_data :
@@ -708,6 +709,7 @@ SECTIONS {
         data/sound_data.o(.rodata);
         src/tx_rac_menu.o(.rodata);
         src/tx_randomizer_and_challenges.o(.rodata);
+        src/tm_case.o(.rodata);
     } > ROM =0
 
     song_data :

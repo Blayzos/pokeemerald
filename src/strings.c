@@ -1828,3 +1828,11 @@ const u8 gText_NuzlockeCantThrowPokeBallSpeciesClause[]     = _("You have alread
 const u8 gText_NuzlockeCantThrowPokeBallAlreadyCaught[]     = _("You have already caught this POKéMON!{PAUSE_UNTIL_PRESS}");
 const u8 gText_OneTypeChallengeCantThrowPokeBall[]          = _("One Type Challenge active, capture blocked!{PAUSE_UNTIL_PRESS}");
 const u8 gText_BattleRules_NoItems_Player[]                 = _("Competitive rules!\nNo items in battle!{PAUSE_UNTIL_PRESS}");
+// frlg_tm_case_port
+const u8 gText_TMCase[] =               _("TM CASE");
+const u8 gText_Close[] =                _("CLOSE");
+const u8 gText_TMCaseWillBePutAway[] =  _("The TM CASE will be\nput away.");
+const u8 gText_FontSmall[] =            _("{FONT_SMALL}");
+const u8 gText_FontShort[] =            _("{FONT_SHORT}");
+const u8 gText_TMCase_Blue[] =          _("{COLOR_HIGHLIGHT_SHADOW BLUE TRANSPARENT LIGHT_BLUE}{STR_VAR_2}");
+
