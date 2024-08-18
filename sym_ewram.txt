@@ -153,3 +153,5 @@
 	.include "src/tx_randomizer_and_challenges.o"
 	.include "src/starter_choose.o"
 	.include "src/tm_case.o"
+	.include "src/debug.o"
+	.include "src/debug_pokemon_creator.o"
