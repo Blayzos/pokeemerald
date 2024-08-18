@@ -1146,7 +1146,7 @@ static void DrawPartyMonIcons(void)
             icon_y = i < 3 ? MON_ICON_START_Y : MON_ICON_START_Y + MON_ICON_PADDING;
         }
         //get species
-        species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES);
+        species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES_OR_EGG);
 
         //create icon sprite
         #ifndef POKEMON_EXPANSION
@@ -1169,7 +1169,7 @@ static void TintPartyMonIcons(u8 tm)
 
     for (i = 0; i < gPlayerPartyCount; i++)
     {
-        species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES);
+        species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES_OR_EGG);
         if (!CanSpeciesLearnTMHM(species, tm))
         {
             gSprites[spriteIdData[i]].oam.paletteNum = 7 + spriteIdPalette[i];
