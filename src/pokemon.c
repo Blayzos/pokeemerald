@@ -12891,6 +12891,7 @@ u32 CanSpeciesLearnTMHM(u16 species, u8 tm)
     }
 }
 
+
 u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
 {
     u16 learnedMoves[MAX_MON_MOVES];

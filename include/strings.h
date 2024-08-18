@@ -3050,4 +3050,6 @@ extern const u8 gText_FontSmall[];
 extern const u8 gText_FontShort[];
 extern const u8 gText_TMCase_Blue[];
 
+extern const u8 gText_Moves_Menu[];
+extern const u8 gText_Nickname[];
 #endif // GUARD_STRINGS_H
