@@ -156,3 +156,4 @@
 	.include "src/debug.o"
 	.include "src/debug_pokemon_creator.o"
 	.include "src/option_plus_menu.o"
+	.include "src/dexnav.o"
