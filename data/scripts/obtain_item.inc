@@ -175,7 +175,7 @@ EventScript_HiddenItemScript::
 	goto_if_eq VAR_0x8007, FALSE, EventScript_NoRoomForHiddenItem
 	end
 
-Std_Hidden::
+Std_RandomItemHidden::
 	special RandomItemHidden
 	return
 
