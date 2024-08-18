@@ -346,7 +346,6 @@ SECTIONS {
         src/tx_rac_menu.o(.text);
         src/tx_randomizer_and_challenges.o(.text);
         src/tm_case.o(.text);
-        src/dexnav.o(.text);
     } > ROM =0
 
     script_data :
@@ -715,7 +714,6 @@ SECTIONS {
         src/tx_rac_menu.o(.rodata);
         src/tx_randomizer_and_challenges.o(.rodata);
         src/tm_case.o(.rodata);
-        src/dexnav.o(.rodata);
     } > ROM =0
 
     song_data :
